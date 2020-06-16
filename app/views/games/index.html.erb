@@ -1,0 +1,6 @@
+All Games:
+<ul>
+  <% @games.each do |game| %>
+    <li><a href="/games/<%= game.id %>"><%= game.name %></a></li>
+  <% end %>
+</ul>
